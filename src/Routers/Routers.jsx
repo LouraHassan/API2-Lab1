@@ -1,5 +1,6 @@
 import App from '../App'
 import Add from '../pages/Add'
+import Update from '../pages/Update';
 
 
 import {
@@ -11,10 +12,13 @@ import {
       element: <App />,
     },
     {
-      path: "/add/",
+      path: "/add",
       element: <Add/>,
       },
-   
+      {
+        path: "/update/:id",
+        element: <Update/>,
+        },
      
   ]);
   

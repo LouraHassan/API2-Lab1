@@ -26,7 +26,7 @@ navigate('/')
   };
     return (
       
-            <div className="">
+        <div className="">
             
         <div className="flex flex-col items-center justify-center">
           <Link to='/' className=" btn btn-sm btn-secondary my-5 text-white"> Go back
